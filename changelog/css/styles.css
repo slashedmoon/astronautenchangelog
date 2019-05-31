@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    height: 88%;
+}
+
+html {
+    height: 88%;
+}
+
+sub {
+    font-size: 10px;
+}
+
+
+#date {
+    color: #b1b1b1;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 14%;
+
+}
+
+#dateline {
+    color: #baff00;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 10%;
+    width: 150px
+}
+
+#logo {
+    width: 130px;
+    height: 130px;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    right: 50%;
+    top: 10%;
+}
+
+#box {
+    border:1px solid #3e3e3e;
+    background-color: #070707;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    border-radius: 8px;
+    position: relative;
+    top: 75%;
+    color: #ffffff;
+    width: 500px;
+    height: 100%;
+    font-family: Raleway;
+}
+
+.changelog {
+    color: #b1b1b1;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 3%;
+}
+
+.option {
+    color: #ffffff;
+    transform: translateX(-100%) translateY(-50%);
+    left: 25%;
+    border-radius: 3px;
+    position: absolute;
+    
+    font-size: 15px;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px; 
+    
+    height: 20px;
+}
+
+#add {
+    background-color: #3a58ff;
+    height: 20px;
+    width: 70px;
+}
+
+#fix {
+    background-color: #773aff;
+    width: 100px;
+}
+
+#change {
+    background-color: #3ab3ff;
+    width: 90px;
+}
+
+#remove {
+    background-color: #ff3a3a;
+    width: 90px;
+}
+
+
+#text {
+    color: #ffffff;
+    transform: translateY(-50%);
+    left: 40%;
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px; 
+}
+
+#patch {
+    font-size: 10px;
+    transform: translateY(-50%);
+    left: 40%;
+    position: absolute;
+    border-left:1px solid #93ff00;
+}
+
+#credits {
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    top: 75%;
+    position: absolute;
+    
+    font-size: 50px;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px; 
+    
+}
+
+#racist {
+    color: #9dff00;
+}
