@@ -1,23 +1,28 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Test Changelog</title>
+    <title>s</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/randomaudio.js"></script>
+    <script src="js/title.js"></script>
     </head>
-    <body>
-        
-        <audio autoplay="autoplay" loop="loop" loop='true' id="myaudio">
-            <source src="media/mounika.mp3" type="video/mp4">
-        </audio>
-        
+    <body onload="play()">
+      
+      <!--
+        <audio autoplay="autoplay" loop='true' id="myaudio">
+            <source src="media/paradise.mp3" type="audio/mp3">
+        </audio> -->
+
+<div id="soundtrack"></div>
         
          <img id="logo" src="media/logo.png" />
         <div id="box">
             
             <h1 class="changelog">Latest Update</h1>
             <hr id="dateline">
-            <a id="date">31/05/18 - 15:19</a>
+            <a id="date">31/05/18 - 20:40</a>
             <br><br><br><br><br><br><br><br> <!-- I don't know either -->
             
             <!-- 
@@ -29,20 +34,26 @@
 
                -> class="option" <- NEEDED IN THE NOTES
             
+                  <a id="patch">&nbsp;&nbsp;  NOTE TEXT </a><br><br><br>
+            
             -->
             
                 <div>
                     <div class="option" id="fix">REWORKED</div>
                         <div id="text">Code (Slightly cleaner)</div><br>
                         <div id="text">Patch notes are now single</div><br>
-                        <a id="patch">&nbsp;&nbsp;Everything is 1 category</a>
-                    <br><br>
+                        <div id="text">Moved scripts to JS directory</div><br><br><br>
+
+                    
                     
                     
                     <div class="option" id="add">ADDED</div>
                         <div id="text">Latest update date</div><br>
                         <div id="text">Github page</div><br>
-                        <div id="text">Line between the date and text</div><br><br>
+                        <div id="text">Moving title</div><br>
+                        <div id="text">Random Audio on page load</div><br>
+                        <a id="patch">&nbsp;&nbsp;  5 songs </a><br>
+                        <div id="text">Line between the date and text</div><br><br><br>
                     
                     <div class="option" id="remove">REMOVED</div> <div id="text">Credits text</div>
                 </div> 
@@ -50,11 +61,7 @@
                    
             
         </div>
-        
-        <script>
-  var audio = document.getElementById("myaudio");
-  audio.volume = 0.04;
-</script>
+
         
     </body>
 </html>
