@@ -90,9 +90,9 @@ sub {
     width: 100px;
 }
 
-#change {
-    background-color: #3ab3ff;
-    width: 90px;
+#todo {
+    background-color: #ff7f00;
+    width: 70px;
 }
 
 #remove {
